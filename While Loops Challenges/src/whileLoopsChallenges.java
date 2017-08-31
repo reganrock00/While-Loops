@@ -44,11 +44,14 @@ public class whileLoopsChallenges
 
 		private static void Number()
 			{
+				int randomnumber = (int)(Math.random()*10)+1;
 				Scanner into = new Scanner(System.in);
 				System.out.println("Guess a number between 1-10");
 				int guess = into.nextInt();
-				int randomnumber = (int)(Math.random()*10)+1;
-				
+				if (guess.equals(randomnumber))
+				{
+					
+				}
 			}
 
 	}
